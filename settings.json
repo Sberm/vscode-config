@@ -20,4 +20,9 @@
     "editor.stickyScroll.scrollWithEditor": false,
     "workbench.tree.enableStickyScroll": false,
     "editor.stickyScroll.enabled": false,
+    "window.titleBarStyle": "custom",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Menlo, Monaco, monospace",
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.guides.indentation": false,
 }
