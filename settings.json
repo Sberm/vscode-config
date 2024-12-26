@@ -25,4 +25,5 @@
     "editor.fontFamily": "Menlo, Monaco, monospace",
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
+    "editor.renderLineHighlight": "gutter",
 }
