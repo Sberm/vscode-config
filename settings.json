@@ -26,6 +26,7 @@
     "editor.renderLineHighlight": "gutter",
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "keyboard.dispatch": "keyCode",
     "vim.normalModeKeyBindings": [
         {
             "before": ["n"],
