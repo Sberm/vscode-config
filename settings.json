@@ -27,6 +27,12 @@
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.untrustedFiles": "open",
     "keyboard.dispatch": "keyCode",
+    "editor.detectIndentation": false,
+    // indent html with 2 spaces
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
     "vim.normalModeKeyBindings": [
         {
             "before": ["n"],
