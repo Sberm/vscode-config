@@ -3,7 +3,7 @@
     "workbench.editor.enablePreview": false,
     "editor.occurrencesHighlight": "off",
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": -1.5, // don't be afraid of this
     "editor.folding": false,
     "debug.showInlineBreakpointCandidates": false,
     "editor.glyphMargin": false,
@@ -103,6 +103,14 @@
         {
             "before": ["<C-G>"],
             "after": ["<Esc>"]
+        },
+        {
+            "before": ["<S-S>"],
+            "after": ["^"]
+        },
+        {
+            "before": ["<S-D>"],
+            "after": ["$"]
         }
     ]
 }
