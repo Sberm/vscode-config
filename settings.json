@@ -3,7 +3,6 @@
     "workbench.editor.enablePreview": false,
     "editor.occurrencesHighlight": "off",
     "editor.minimap.enabled": false,
-    "workbench.statusBar.visible": false,
     "window.zoomLevel": 1,
     "editor.folding": false,
     "debug.showInlineBreakpointCandidates": false,
@@ -25,4 +24,84 @@
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
     "editor.renderLineHighlight": "gutter",
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["n"],
+            "after": ["n", "z", "z"]
+        },
+        {
+            "before": ["N"],
+            "after": ["N", "z", "z"]
+        },
+        {
+            "before": [","],
+            "after": ["@", ":"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-U>"],
+            "after": ["<C-U>", "z", "z"]
+        },
+        {
+            "before": ["<C-D>"],
+            "after": ["<C-D>", "z", "z"]
+        },
+        {
+            "before": ["<C-X>", "q"],
+            "commands": [":q"]
+        },
+        {
+            "before": ["<S-S>"],
+            "after": ["^"]
+        },
+        {
+            "before": ["<S-D>"],
+            "after": ["$"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["c"],
+            "after": ["\"", "_", "c"]
+        },
+        {
+            "before": ["p"],
+            "after": ["P"]
+        },
+        {
+            "before": ["<"],
+            "after": ["<", "g", "v"]
+        },
+        {
+            "before": [">"],
+            "after": [">", "g", "v"]
+        },
+        {
+            "before": ["<C-U>"],
+            "after": ["<C-U>", "z", "z"]
+        },
+        {
+            "before": ["<C-V>"],
+            "after": ["<C-D>", "z", "z"]
+        },
+        {
+            "before": ["<C-W>"],
+            "after": ["d"]
+        },
+        {
+            "before": ["<Backspace>"],
+            "after": ["\"", "_", "d"]
+        },
+        {
+            "before": ["<C-Y>"],
+            "after": ["P"]
+        },
+        {
+            "before": ["<C-G>"],
+            "after": ["<Esc>"]
+        }
+    ]
 }
