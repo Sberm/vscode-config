@@ -49,6 +49,7 @@
         "command": "-extension.vim_ctrl+n",
         "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
     },
+    // C-P and C-N
     {
         "key": "ctrl+p",
         "command": "extension.vim_up",
@@ -58,5 +59,11 @@
         "key": "ctrl+n",
         "command": "extension.vim_down",
         "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert'"
+    },
+    // remove C-J so I can use it to open a terminal
+    {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
     },
 ]
