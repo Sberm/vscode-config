@@ -3,7 +3,6 @@
     "workbench.editor.enablePreview": false,
     "editor.occurrencesHighlight": "off",
     "editor.minimap.enabled": false,
-    "window.zoomLevel": -1.4, // don't be afraid of this
     "editor.folding": false,
     "debug.showInlineBreakpointCandidates": false,
     "editor.glyphMargin": false,
@@ -19,7 +18,8 @@
     "workbench.tree.enableStickyScroll": false,
     "editor.stickyScroll.enabled": false,
     "window.titleBarStyle": "custom",
-    "editor.fontSize": 12,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
     "editor.fontFamily": "ComicShannsMono Nerd Font, Menlo, Monaco, monospace",
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
