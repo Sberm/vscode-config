@@ -20,7 +20,6 @@
     "window.titleBarStyle": "custom",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 1.5,
     "editor.fontFamily": "ComicShannsMono Nerd Font, Menlo, Monaco, monospace",
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
