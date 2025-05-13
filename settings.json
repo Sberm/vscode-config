@@ -8,7 +8,7 @@
     "editor.glyphMargin": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "window.commandCenter": false,
-    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "line",
     "workbench.editor.tabSizingFixedMinWidth": 38,
     "window.density.editorTabHeight": "compact",
     "workbench.editor.tabSizing": "shrink",
@@ -20,7 +20,7 @@
     "window.titleBarStyle": "custom",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "editor.fontFamily": "'Departure Mono', 'howard-departure-mono'",
+    "editor.fontFamily": "Pixel Code",
     "editor.fontWeight": "bold",
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
@@ -29,95 +29,21 @@
     "security.workspace.trust.untrustedFiles": "open",
     "keyboard.dispatch": "keyCode",
     "editor.detectIndentation": false,
-    // indent html with 2 spaces
+    // indentations
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[cpp]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[c]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false
+    },
     "[html]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
     },
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["n"],
-            "after": ["n", "z", "z"]
-        },
-        {
-            "before": ["N"],
-            "after": ["N", "z", "z"]
-        },
-        {
-            "before": [","],
-            "after": ["@", ":"]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": ["<C-U>"],
-            "after": ["<C-U>", "z", "z"]
-        },
-        {
-            "before": ["<C-D>"],
-            "after": ["<C-D>", "z", "z"]
-        },
-        {
-            "before": ["<C-X>", "q"],
-            "commands": [":q"]
-        },
-        {
-            "before": ["<S-S>"],
-            "after": ["^"]
-        },
-        {
-            "before": ["<S-D>"],
-            "after": ["$"]
-        }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": ["c"],
-            "after": ["\"", "_", "c"]
-        },
-        {
-            "before": ["p"],
-            "after": ["P"]
-        },
-        {
-            "before": ["<"],
-            "after": ["<", "g", "v"]
-        },
-        {
-            "before": [">"],
-            "after": [">", "g", "v"]
-        },
-        {
-            "before": ["<C-U>"],
-            "after": ["<C-U>", "z", "z"]
-        },
-        {
-            "before": ["<C-V>"],
-            "after": ["<C-D>", "z", "z"]
-        },
-        {
-            "before": ["<C-W>"],
-            "after": ["d"]
-        },
-        {
-            "before": ["<Backspace>"],
-            "after": ["\"", "_", "d"]
-        },
-        {
-            "before": ["<C-Y>"],
-            "after": ["P"]
-        },
-        {
-            "before": ["<C-G>"],
-            "after": ["<Esc>"]
-        },
-        {
-            "before": ["<S-S>"],
-            "after": ["^"]
-        },
-        {
-            "before": ["<S-D>"],
-            "after": ["$"]
-        }
-    ]
 }
