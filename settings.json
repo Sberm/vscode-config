@@ -20,7 +20,7 @@
     "window.titleBarStyle": "custom",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "editor.fontFamily": "Pixel Code",
+    "editor.fontFamily": "'howard-departure-mono', 'Pixel Code'",
     "editor.fontWeight": "bold",
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
@@ -28,7 +28,6 @@
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.untrustedFiles": "open",
     "keyboard.dispatch": "keyCode",
-    "editor.detectIndentation": false,
     // indentations
     "[python]": {
         "editor.tabSize": 4,
@@ -45,5 +44,5 @@
     "[html]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
-    },
+    }
 }
