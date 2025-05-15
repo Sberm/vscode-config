@@ -20,7 +20,7 @@
     "window.titleBarStyle": "custom",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "editor.fontFamily": "'howard-departure-mono', 'Pixel Code'",
+    "editor.fontFamily": "'Pixel Code', 'howard-departure-mono'",
     "editor.fontWeight": "bold",
     "workbench.tree.renderIndentGuides": "none",
     "editor.guides.indentation": false,
